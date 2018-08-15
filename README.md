@@ -111,6 +111,7 @@ My final model consisted of the following layers:
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
 Here are the model parameters:
+
 | Parameters     | value	         | 
 |:--------------:|:-----------------:| 
 | Optimizer      | adam optimizer    | 
@@ -130,6 +131,7 @@ My final model results were:
 * test set accuracy of around 94.6%
 
 I simply adopted LeNet architecture as it performs reasonably well with my augmented data sets. After trying it out, the validation accuracy kept increase as each epoch was trained, thus I believe the 'classic" solution is sufficient for this project. Here is the graph of validation accuracy against each epoch:
+
 ![alt text][image5]
 
 ### Test a Model on New Images
